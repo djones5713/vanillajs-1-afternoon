@@ -199,8 +199,9 @@ In this step, we will create an array that will keep track of the game's progres
 const board = [];
 
 function play(clickedId) {
-  const playerSpan = document.getElementById('player');
   const clickedElement = document.getElementById(clickedId);
+  const playerSpan = document.getElementById('player');
+  
 
   if (playerSpan.innerText === 'X') {
     playerSpan.innerText = 'O';
