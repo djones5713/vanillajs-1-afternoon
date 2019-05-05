@@ -1,8 +1,8 @@
 console.log("The house always wins!")
 
 
-var idInput = document.getElementById("idInput");
-var colorInput = document.getElementById("colorInput");
+const idInput = document.getElementById("idInput");
+const colorInput = document.getElementById("colorInput");
 
 console.log(idInput);
 console.log(colorInput);
@@ -16,7 +16,8 @@ function setCard(){
 
 function reset() {
     const resetCard = document.getElementsByTagName("section");
-    colorInput.card.style.color = "pink";
+    // console.log(colorInput.style)
+    colorInput.style.color = "pink";
 }
 
 
